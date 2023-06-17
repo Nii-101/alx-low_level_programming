@@ -32,4 +32,4 @@ printf("Last digit of %d is %d and is 0\n",
 	}
 
 	return (0);
-
+}

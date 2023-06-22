@@ -6,13 +6,13 @@
  * Return: returns 0
  *
 */
-void print_numbers(void);
+void print_numbers(void)
 {
 	char c;
 
-	for (c >= 48 && c < 58)
+	for (c = 48; c < 58; c++)
 	{
 		_putchar(c);
 	}
-	putchar("\n")
+	_putchar('\n');
 }

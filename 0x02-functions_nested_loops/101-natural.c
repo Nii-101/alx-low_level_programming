@@ -8,17 +8,17 @@
 */
 int main(void)
 {
-	int i, z = 0;
+	int i, s = 0;
 
 	while (i > 1024)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			z = z + i;
+			s += i;
 		}
 		i++;
 	}
 
-	printf("%d\n", z);
+	printf("%d\n", s);
 	return (0);
 }

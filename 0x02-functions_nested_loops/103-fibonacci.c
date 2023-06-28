@@ -13,26 +13,23 @@
  *@b: sum of the even numbers of the fibonacci sequence, below 4000000
  *
  *Return: 0 means success
-*/
-int main(int x, int y, int z, int a, int b)
+ */
+int main(void)
 {
+	int x, y, z, a, b;
 
-	x = 1, y = 2;
+	x = 1;
+
+	y = 2;
 
 	z = x + y;
 
-	a;
-
-	b;
-
-	for (z; z < 4000000; z = x + y)
+	for (; z < 4000000; z = x + y)
 	{
 		x = y;
 		y = z;
-		{
-			if (y == z)
-			{	a = z + y;
-			}
+		if (y == z)
+		{	a = z + y;
 		}
 	}
 	b = a + 2;

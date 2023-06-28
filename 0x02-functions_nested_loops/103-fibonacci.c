@@ -24,15 +24,17 @@ int main(void)
 
 	z = x + y;
 
+	a = 2;
+
 	for (; z < 4000000; z = x + y)
 	{
 		x = y;
 		y = z;
-		if (y == z)
-		{	a = z + y;
+		if (z % 2 == 0)
+		{	a += z;
 		}
 	}
-	b = a + 2;
+	b = a;
 	printf("%d\n", b);
 
 	return (0);

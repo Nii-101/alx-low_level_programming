@@ -9,7 +9,7 @@
  *
  *@head:a  double pointer to the list, (list_t)
  *
- * Return:returns the address of the new element if successful, or NULL if failed
+ *Return:returns the address of the new element if successful,or NULL if failed
  */
 list_t *add_node_end(list_t **head, const char *str)
 {

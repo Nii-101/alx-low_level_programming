@@ -49,7 +49,7 @@ void close_file(int fd)
  * main - A function that copies the content of one file to another file.
  *
  * @argc:Represents the  number of arguments given  to the program.
- * 
+ *
  * @argv: Is an array of pointers to the arguments.
  *
  * Return:Returns 0 if successfu;.
